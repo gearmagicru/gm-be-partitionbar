@@ -1,0 +1,49 @@
+/*!
+ * Сетка (Grid).
+ *
+ * Модуль "Панель разделов".
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * Licensed https://gearmagic.ru/license/
+ */
+
+/* Заливка заднего фона сетки (см. идент. viewManager) */
+#gm-partitionbar-grid .x-tree-view {
+    background: url("../images/watermark.svg") no-repeat calc(100% - 25px) calc(100% - 20px);
+    background-size: 100px;
+}
+
+
+/* Столбец: Значок / Изображение */
+#gm-partitionbar-grid .icon-font::before,
+#gm-partitionbar-grid .g-icon-fcss {
+    font-size: 19px;
+    color: #999999;
+}
+
+
+/**
+ * Ячейки сетки.
+ */
+/* Модули, Расширения, Роли пользователей */
+.gm-partitionbar-grid-cell__items {
+    line-height: 1.45;
+    color: #797979;
+}
+.gm-partitionbar-grid-cell__items .g-icon {
+    opacity: 0.5;
+}
+
+
+/**
+ * Панель навигации.
+ */
+.gm-partitionbar-navinfo__icon {
+    text-align: center;
+}
+.gm-partitionbar-navinfo__icon,
+.gm-partitionbar-navinfo__icon .g-icon-fcss {
+    font-size: 30px;
+    color: #999;
+}

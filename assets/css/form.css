@@ -1,0 +1,28 @@
+/*!
+ * Форма (Form).
+ *
+ * Модуль "Панель разделов".
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * Licensed https://gearmagic.ru/license/
+ */
+
+ /**
+ * Выпадаюший список элементов.
+ */
+.gm-partitionbar__boundlist-icon { line-height: 25px; }
+.gm-partitionbar__boundlist-icon.font-icon {
+    position: relative;
+    padding-left: 40px;
+}
+.gm-partitionbar__boundlist-icon.font-icon i {
+    position: absolute;
+    left: 5px;
+    font-size: 21px;
+    color: #90B9A3;
+}
+.gm-partitionbar__boundlist-icon.font-icon span {
+    color: silver;
+    font-size: 12px;
+}
