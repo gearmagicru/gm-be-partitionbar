@@ -1,13 +1,7 @@
 {
     "name": "gearmagicru/gm-be-partitionbar",
-    "description": "Control panel module \"Partition bar\"",
-    "keywords": [
-        "gm",
-        "gearmagic",
-        "GM Panel",
-        "module",
-        "partitionbar"
-    ],
+    "description": "Control Panel module \"Partition bar\"",
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-module", "module", "partitionbar"],
     "homepage": "https://apps.gearmagic.ru/component/gm-be-partitionbar",
     "type": "component",
     "license": "MIT",
